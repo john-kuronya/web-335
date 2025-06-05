@@ -1,0 +1,24 @@
+{
+  "customer": {
+    "_id": "c123",
+    "firstName": "Maria",
+    "lastName": "Lopez",
+    "burgers": [
+      {
+        "_id": "b001",
+        "burgerName": "Spicy Jalapeno Burger",
+        "price": 8.75
+      },
+      {
+        "_id": "b002",
+        "burgerName": "Classic Cheeseburger",
+        "price": 7.25
+      },
+      {
+        "_id": "b003",
+        "burgerName": "Bacon BBQ Burger",
+        "price": 9.50
+      }
+    ]
+  }
+}
