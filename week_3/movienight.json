@@ -1,0 +1,27 @@
+{
+  "viewer": {
+    "_id": "viewer123",
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "ratings": [
+      {
+        "_id": "rating001",
+        "ratingScore": 5,
+        "movie": {
+          "_id": "movieA1",
+          "movieName": "Inception",
+          "genre": "Sci-Fi"
+        }
+      },
+      {
+        "_id": "rating002",
+        "ratingScore": 4,
+        "movie": {
+          "_id": "movieB2",
+          "movieName": "The Grand Budapest Hotel",
+          "genre": "Comedy"
+        }
+      }
+    ]
+  }
+}
