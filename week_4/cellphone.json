@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "_id": "user001",
+      "firstName": "Emily",
+      "lastName": "Johnson"
+    }
+  ],
+  "chargers": [
+    {
+      "_id": "charger001",
+      "chargerType": "USB-C",
+      "voltage": 20
+    },
+    {
+      "_id": "charger002",
+      "chargerType": "Lightning",
+      "voltage": 5
+    }
+  ],
+  "devices": [
+    {
+      "_id": "device001",
+      "deviceName": "Galaxy S23",
+      "deviceType": "Smartphone",
+      "charger_id": "charger001",
+      "user_id": "user001"
+    },
+    {
+      "_id": "device002",
+      "deviceName": "iPad Mini",
+      "deviceType": "Tablet",
+      "charger_id": "charger002",
+      "user_id": "user001"
+    }
+  ]
+}
